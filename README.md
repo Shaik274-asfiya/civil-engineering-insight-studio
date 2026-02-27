@@ -1,40 +1,42 @@
-# 🏗 Civil Engineering Insight Studio
+# Civil Engineering Insight Studio
 
-A Flask-based web application designed to provide civil engineering insights and analysis.
+A Flask-based web application designed to provide civil engineering insights and analysis through a simple web interface.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Image upload functionality
-- Clean and structured UI
-- Organized static & template folders
-- Python Flask backend
+- Structured and clean user interface
+- Organized static and template folders
+- Flask-based backend
+- Easy to run locally
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Python
 - Flask
 - HTML
 - CSS
-- Git & GitHub
+- Git
+- GitHub
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 Civil-Engineering-Insight-Studio/
-│
-├── static/
-├── templates/
-├── app.py
-├── requirements.txt
+
+├── static/  
+├── templates/  
+├── app.py  
+├── requirements.txt  
 └── .gitignore
 
 ---
 
-## ▶️ How to Run
+## How to Run the Project
 
 1. Clone the repository
