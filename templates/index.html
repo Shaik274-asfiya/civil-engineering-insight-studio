@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Civil Engineering Insight Studio</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <h1>Civil Engineering Insight Studio</h1>
+
+    <form method="POST" enctype="multipart/form-data">
+      <label>Select Scenario:</label>
+      <select name="scenario">
+        <option value="materials">Material Identification</option>
+        <option value="documentation">Project Documentation</option>
+        <option value="bridge">Bridge Structural Analysis</option>
+      </select>
+
+      <br /><br />
+
+      <input type="file" name="image" required />
+
+      <br /><br />
+
+      <button type="submit">Analyze</button>
+    </form>
+
+    <h2>Result:</h2>
+    <pre>{{ result }}</pre>
+  </body>
+</html>
